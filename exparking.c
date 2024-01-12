@@ -4,6 +4,7 @@ int main() {
    char *via1[] = {" Via Massa 4"};
    char *via2[] = {" Via della Condotta 7"};
    char *via3[] = {" Via dei Pescioni 23"};
+   char *via4[] = {" Via Lorenzo il Magnifico 45"};
    char *via5[] = {"Via del Baluardo 25"};
    char *via6[] = {"Via della Camorra 2"};
    char *via7[] = {" Via San Carlo 69"};
@@ -16,7 +17,7 @@ printf("La zona inserita è: %d\n", numerozona);
     if (numerozona < 1 || numerozona > 5) {
         printf("La zona inserita non esiste\n");
  } else {
-        printf("I parcheggi che abbiamo trovato sono %d sono:\n", numerozona);
+        printf("I parcheggi che abbiamo trovato sono elencati qui sotto:\n", numerozona);
         
         if (numerozona == 1) {
             printf("1. %s\n", via1[0]);
@@ -35,5 +36,7 @@ printf("La zona inserita è: %d\n", numerozona);
             printf("2. %s\n", via10[0]);
         }
     }
+printf("Speriamo che il servizio sia stato di tuo gradimento! \n Buona giornata dal team di FlashParking :-)");
+return 0;
 }
     
